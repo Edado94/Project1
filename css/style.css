@@ -8,7 +8,11 @@
 
 nav ul a,
 nav .brand-logo {
-  color: #444;
+  color:#9c27b0 ;
+}
+
+.brand-logo img {
+  max-height: 50px;
 }
 
 p {
@@ -16,7 +20,7 @@ p {
 }
 
 .sidenav-trigger {
-  color: #26a69a;
+  color: #FFF2FF;
 }
 
 .horoscope-container {
@@ -24,10 +28,28 @@ p {
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
+  font-family: 'Courier New', Courier, monospace;
 }
   .horoscope-container .section {
     width: 100%;
   }
+
+.icon-block img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  width: 40%;
+}
+
+.parallax.wrapper {
+  transform: scaleX(-1);
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
 
 @media only screen and (max-width : 992px) {
   .horoscope-container .section {
@@ -43,15 +65,4 @@ p {
   #index-banner .section {
     top: 0;
   }
-}
-
-.icon-block {
-  padding: 0 15px;
-}
-.icon-block .material-icons {
-  font-size: inherit;
-}
-
-footer.page-footer {
-  margin: 0;
 }

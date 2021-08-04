@@ -3,7 +3,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Horoscope For You</title>
+  <title>Horoscopes For You</title>
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -11,11 +11,15 @@
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
-  <nav class="white" role="navigation">
+  <nav class="purple lighten-5" role="navigation">
     <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">Logo</a>
+      <a id="logo-container" href="#" class="brand-logo">
+        <img class="responsive-img" src="images/moon.png" alt="moon">
+      </a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#">Navbar Link</a></li>
+        <li><a href="#">Horoscope Compatibility</a></li>
+        <li><a href="#">Daily Horoscope</a></li>
+        <li><a href="#">Birth Chart</a></li>
       </ul>
 
       <ul id="nav-mobile" class="sidenav">
@@ -29,18 +33,36 @@
     <div class="section no-pad-bot">
       <div class="container">
         <br><br>
-        <h1 class="header center teal-text text-lighten-2">Horoscope For You</h1>
+        <h1 class="header center purple-text text-lighten-3">Horoscopes For You</h1>
         <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+          <h4 class="header purple-text text-lighten-5">What's your sign?</h4>
         </div>
+
+        <!--
         <div class="row center">
-          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
+          <a onclick="fetchApi()" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
         </div>
+      -->
+
+<select name="horoscopes" id="download button" class="btn-large waves-effect waves-light purple lighten-5 purple-text">
+  <option value="leo">Leo July 23 - Aug 22</option>
+  <option value="virgo">Virgo Aug 23 - Sep 22</option>
+  <option value="libra">Libra Sep 23 - Oct 22</option>
+  <option value="scorpio">Scorpio Oct 23 - Nov 21</option>
+  <option value="sagittarius">Sagittarius Nov 22 - Dec 21</option>
+  <option value="capricorn">Capricorn Dec 22 - Jan 19</option>
+  <option value="aquarius">Aquarius Jan 20 - Feb 18</option>
+  <option value="pisces">Pisces Feb 19 - Mar 20</option>
+  <option value="aries">Aries Mar 21 - Apr 19</option>
+  <option value="taurus">Taurus Apr 20 - May 20</option>
+  <option value="gemini">Gemini May 21 - Jun 20</option>
+  <option value="cancer">Cancer Jun 21 - Jul 22</option>
+</select>
         <br><br>
 
       </div>
     </div>
-    <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 1"></div>
+    <div class="parallax"><img class= "responsive-img" src="images/background1.jpg" alt="Unsplashed background stars"></div>
   </div>
 
 
@@ -51,28 +73,28 @@
       <div class="row">
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
-            <h5 class="center">Speeds up development</h5>
+            <img class="responsive-img" src="images/magic-ball.png" alt="magic ball icon">
+            <h5 class="center">Are You Compatible?</h5>
 
-            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+            <p class="light">A lot of people don't know but individual's horoscope may be more compatible than others.</p>
           </div>
         </div>
 
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">group</i></h2>
-            <h5 class="center">User Experience Focused</h5>
+            <img class="responsive-img" src="images/astrology.png" alt="astrology icon">
+            <h5 class="center">Get Your Daily Horoscopes!</h5>
 
-            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+            <p class="light">Get your daily horoscopes for great tips! Every horoscope has different approaches to life situations.</p>
           </div>
         </div>
 
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
-            <h5 class="center">Easy to work with</h5>
+            <img class="responsive-img" src="images/moonlight.png" alt="moonlight icon">
+            <h5 class="center">Find your birth chart</h5>
 
-            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+            <p class="light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quasi harum inventore itaque blanditiis magni facere. Quia neque accusantium fuga a earum cum numquam, illo ab cumque perspiciatis officiis sunt!</p>
           </div>
         </div>
       </div>
@@ -85,71 +107,25 @@
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+          <h5 class="header col s12 light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint cupiditate nesciunt consequatur esse molestiae quidem quos voluptatibus alias voluptatum, iusto laboriosam commodi placeat, porro quibusdam illo impedit odit excepturi quasi.</h5>
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 2"></div>
+    <div class="parallax wrapper"><img class= "responsive-img" src="images/background1.jpg" alt="Unsplashed background img 2"></div>
   </div>
 
-  <div class="container">
-    <div class="section">
-
-      <div class="row">
-        <div class="col s12 center">
-          <h3><i class="mdi-content-send brown-text"></i></h3>
-          <h4>Contact Us</h4>
-          <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-
-  <div class="horoscope-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-        </div>
-      </div>
-    </div>
-    <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 3"></div>
-  </div>
-
-  <footer class="page-footer teal">
+  <footer class="page-footer white">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
-          <h5 class="white-text">Company Bio</h5>
-          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
-
-
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Settings</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Connect</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
+          <h5 class="purple-text">Group Bio</h5>
+          <p class="purple-text text-lighten-4">We started off strangers and with the power of astrology, we are group 6.</p>
         </div>
       </div>
     </div>
     <div class="footer-copyright">
       <div class="container">
-      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+       <a class="purple-text text-lighten-3">Made by Group 6 :)</a>
       </div>
     </div>
   </footer>
