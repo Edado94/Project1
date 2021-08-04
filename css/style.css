@@ -34,6 +34,16 @@ p {
     width: 100%;
   }
 
+  .dropdown-trigger {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  width: 40%;
+
+  }
+
+
 .icon-block img {
   display: block;
   margin-left: auto;
@@ -48,6 +58,19 @@ p {
 
 footer.page-footer {
   margin: 0;
+}
+
+.content-container {
+  display: flex;
+  width: 100%;
+  height: 300px;
+  border: 1px solid red;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.horoscope-blocks {
+  max-width: 400px;
 }
 
 

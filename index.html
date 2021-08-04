@@ -10,6 +10,7 @@
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
+
 <body>
   <nav class="purple lighten-5" role="navigation">
     <div class="nav-wrapper container">
@@ -38,32 +39,30 @@
           <h4 class="header purple-text text-lighten-5">What's your sign?</h4>
         </div>
 
-        <!--
-        <div class="row center">
-          <a onclick="fetchApi()" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
-        </div>
-      -->
+       <!-- Dropdown Trigger -->
+      <a class='dropdown-trigger btn-large waves-effect waves-light purple lighten-5 purple-text' href='#' data-target='dropdown1'>Find your sign</a>
 
-<select name="horoscopes" id="download button" class="btn-large waves-effect waves-light purple lighten-5 purple-text">
-  <option value="leo">Leo July 23 - Aug 22</option>
-  <option value="virgo">Virgo Aug 23 - Sep 22</option>
-  <option value="libra">Libra Sep 23 - Oct 22</option>
-  <option value="scorpio">Scorpio Oct 23 - Nov 21</option>
-  <option value="sagittarius">Sagittarius Nov 22 - Dec 21</option>
-  <option value="capricorn">Capricorn Dec 22 - Jan 19</option>
-  <option value="aquarius">Aquarius Jan 20 - Feb 18</option>
-  <option value="pisces">Pisces Feb 19 - Mar 20</option>
-  <option value="aries">Aries Mar 21 - Apr 19</option>
-  <option value="taurus">Taurus Apr 20 - May 20</option>
-  <option value="gemini">Gemini May 21 - Jun 20</option>
-  <option value="cancer">Cancer Jun 21 - Jul 22</option>
-</select>
-        <br><br>
-
+       <!-- Dropdown Structure -->
+      <ul id='dropdown1' class='dropdown-content'>
+        <li><a href="index_leo.html">Leo July 23 - Aug 22</a></li>
+        <li><a href="#!">Virgo Aug 23 - Sep 22</a></li>
+        <li><a href="#!">Libra Sep 23 - Oct 22</a></li>
+        <li><a href="#!">Scorpio Oct 23 - Nov 21</a></li>
+        <li><a href="#!">Sagittarius Nov 22 - Dec 21</a></li>
+        <li><a href="#!">Capricorn Dec 22 - Jan 19</a></li>
+        <li><a href="#!">Aquarius Jan 20 - Feb 18</a></li>
+        <li><a href="#!">Pisces Feb 19 - Mar 20</a></li>
+        <li><a href="#!">Aries Mar 21 - Apr 19</a></li>
+        <li><a href="#!">Taurus Apr 20 - May 20</a></li>
+        <li><a href="#!">Gemini May 21 - Jun 20</a></li>
+        <li><a href="#!">Cancer Jun 21 - Jul 22</a></li>
+      </ul>
       </div>
     </div>
+
     <div class="parallax"><img class= "responsive-img" src="images/background1.jpg" alt="Unsplashed background stars"></div>
   </div>
+  
 
 
   <div class="container">
@@ -92,7 +91,7 @@
         <div class="col s12 m4">
           <div class="icon-block">
             <img class="responsive-img" src="images/moonlight.png" alt="moonlight icon">
-            <h5 class="center">Find your birth chart</h5>
+            <h5 class="center">Find Your Birth hart</h5>
 
             <p class="light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quasi harum inventore itaque blanditiis magni facere. Quia neque accusantium fuga a earum cum numquam, illo ab cumque perspiciatis officiis sunt!</p>
           </div>
@@ -136,5 +135,5 @@
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
 
-  </body>
+</body>
 </html>
