@@ -34,6 +34,16 @@ p {
     width: 100%;
   }
 
+  .dropdown-trigger {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  width: 40%;
+
+  }
+
+
 .icon-block img {
   display: block;
   margin-left: auto;
