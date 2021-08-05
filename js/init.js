@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   $('.dropdown-trigger').dropdown();
 
-  // Function for horoscope day API
+  // Function for horoscope sign description API
 
   fetch("https://horoscope5.p.rapidapi.com/general/daily?sign=cancer&date=2020-05-02", {
 	"method": "GET",
