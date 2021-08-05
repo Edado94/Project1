@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   var todaysDate = new Date();
   var todayMonth = todaysDate.getMonth() + 1;
-  var todayDay = todaysDate.getDay();
+  var todayDay = todaysDate.getDay() + 1;
   var todayYear = todaysDate.getFullYear();
   document.getElementById("todays-date").innerHTML= `${todayMonth}/${todayDay}/${todayYear}`;
 
