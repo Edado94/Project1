@@ -17,6 +17,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
   $('.dropdown-trigger').dropdown();
 
+  var todaysDate = new Date();
+  var todayMonth = todaysDate.getMonth() + 1;
+  var todayDay = todaysDate.getDay();
+  var todayYear = todaysDate.getFullYear();
+  document.getElementById("todays-date").innerHTML= `${todayMonth}/${todayDay}/${todayYear}`;
+
+
   // Function for horoscope sign description API
 
   fetch("https://horoscope5.p.rapidapi.com/general/daily?sign=cancer&date=2020-05-02", {
