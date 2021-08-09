@@ -1,4 +1,4 @@
-# Horoscopes for You
+# Horoscopes For You
 
 ## Purpose
 A website that offers daily horoscopes for the 12 zodiac signs. 
