@@ -8,24 +8,25 @@
 })(jQuery); // end of jQuery name space
 
 
+// Dropdown button
 document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.dropdown-trigger');
-    var instances = M.Dropdown.init(elems, options);
   });
 
   // Or with jQuery
 
   $('.dropdown-trigger').dropdown();
 
+
+  // Today's date
   var todaysDate = new Date();
   var todayMonth = todaysDate.getMonth() + 1;
-  var todayDay = todaysDate.getDay() + 1;
+  var todayDay = todaysDate.getDate();
   var todayYear = todaysDate.getFullYear();
   document.getElementById("todays-date").innerHTML= `${todayMonth}/${todayDay}/${todayYear}`;
 
 
-  // Function for horoscope sign description API
-
+  /*Function for horoscope sign description API
   fetch("https://horoscope5.p.rapidapi.com/general/daily?sign=cancer&date=2020-05-02", {
 	"method": "GET",
 	"headers": {
@@ -44,12 +45,11 @@ document.addEventListener('DOMContentLoaded', function() {
   })
   .then(function(response) {
     console.log(response);
-  });
+  }); 
 
 
 
 // Function for adding the Giphy API
-
   function giphyLeo() {
     var giphyLeo = document.querySelector('#giphyLeo').value;
   
@@ -97,6 +97,6 @@ document.addEventListener('DOMContentLoaded', function() {
       })
       .then(function(response) {
         console.log(response);
-      });
+      }); */
 
         
